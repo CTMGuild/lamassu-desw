@@ -1,0 +1,42 @@
+{
+  "name": "lamassu-desw",
+  "version": "0.0.1",
+  "description": "Lamassu DeSW Plugin",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CTMGuild/lamassu-desw.git"
+  },
+  "keywords": [
+    "Bitcoin",
+    "Dash",
+    "Lamassu",
+    "Wallet",
+    "Plugin"
+  ],
+  "author": {
+    "name": "CTMGuild",
+    "url": "https://ctmguild.com"
+  },
+  "bin": {
+    "desw-setup": "./setup"
+  },
+  "bugs": {
+    "url": "https://github.com/CTMGuild/lamassu-desw/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "lodash": "^2.4.1",
+    "request": "~2.51.0",
+    "promptly": "~0.2.0",
+    "bitjws-js": "^0.0.4",
+    "lamassu-config": "~1.0.0"
+  }
+}
